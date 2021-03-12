@@ -42,8 +42,10 @@ struct ContentView: View {
                     Spacer()
                     ForEach(0..<krety.count) { column in
                         KretView(hasKret: $krety[row][column], action: {
-                            points+=1
-                            krety[row][column] = false;
+                            if(krety[row][column]) {
+                                points+=1
+                                krety[row][column] = false;
+                            }
                         })
                         Spacer()
                     }

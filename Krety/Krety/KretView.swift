@@ -10,7 +10,6 @@ import SwiftUI
 struct KretView: View {
     
     @Binding var hasKret: Bool;
-    
     var action: (() -> Void)?
     
     var body: some View {
@@ -18,6 +17,7 @@ struct KretView: View {
         , label: {
             Rectangle()
                 .fill(hasKret ? Color("Kret"): Color.black)
+                .aspectRatio(contentMode: ContentMode.fit)
                 .frame(width: 100, height: 100)
         })
     }
