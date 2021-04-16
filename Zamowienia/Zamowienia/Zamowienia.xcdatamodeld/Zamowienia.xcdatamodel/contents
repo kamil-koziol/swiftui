@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Order" representedClassName="Order" syncable="YES">
+        <attribute name="addition1" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="addition2" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="addition3" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="amount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="price" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="username" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Order" positionX="-63" positionY="-18" width="128" height="14"/>
+    </elements>
+</model>
